@@ -4,7 +4,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import './App.css';
+
+import './components/styles/Navbar.css';
+import './components/styles/PageTitle.css';
 
 import HomePage from './components/common/HomePage.jsx';
 import AboutPage from './components/common/AboutPage.jsx';

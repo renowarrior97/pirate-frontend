@@ -1,0 +1,27 @@
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0  0 0;
+    padding: 0;
+    list-style: none;
+    background-color: #FFD000;
+    border-bottom: 3px solid #111; 
+    border-top: 3px solid #111;
+    font-family: "Copperplate Gothic Light";
+}
+
+/*Used to make list horizontal*/
+#nav li{
+    float:left;
+}
+
+#nav li a {
+        display: block;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #111;
+    }
+#nav li:hover {
+    background-color: #FFF000
+}
